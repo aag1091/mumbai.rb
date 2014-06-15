@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  get 'meetups', to: 'home#coming_soon'
+  get 'members', to: 'home#coming_soon'
+  get 'shares', to: 'home#coming_soon'
+  get 'jobs', to: 'home#coming_soon'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
